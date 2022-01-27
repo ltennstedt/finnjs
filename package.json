@@ -1,0 +1,43 @@
+{
+  "name": "finnjs",
+  "version": "0.0.1",
+  "description": "Mathematical library (fractions, complex numbers, vectors and matrices) written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build --clean",
+    "watch": "tsc --watch",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltennstedt/finnjs.git"
+  },
+  "keywords": [
+    "math",
+    "mathematics",
+    "vector",
+    "matrix",
+    "vectors",
+    "matrices",
+    "complex",
+    "number",
+    "numbers",
+    "fraction",
+    "fractions",
+    "circle",
+    "circles",
+    "rectangle",
+    "rectangles"
+  ],
+  "author": "Lars Tennstedt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltennstedt/finnjs/issues"
+  },
+  "homepage": "https://github.com/ltennstedt/finnjs#readme",
+  "devDependencies": {
+    "typescript": "4.5.5",
+    "eslint": "8.7.0",
+    "ava": "4.0.1"
+  }
+}

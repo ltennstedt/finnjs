@@ -1,0 +1,14 @@
+I{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es2015",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ]
+}
