@@ -2,10 +2,9 @@
   "name": "finnjs",
   "version": "0.0.1",
   "description": "Mathematical library (fractions, complex numbers, vectors and matrices) written in TypeScript",
-  "main": "index.js",
+  "main": "Fraction.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc --build --clean",
-    "watch": "tsc --watch",
     "test": "ava"
   },
   "repository": {
@@ -35,9 +34,21 @@
     "url": "https://github.com/ltennstedt/finnjs/issues"
   },
   "homepage": "https://github.com/ltennstedt/finnjs#readme",
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ],
+    "extensions": [
+      "js"
+    ],
+    "failWithoutAssertions": false
+  },
   "devDependencies": {
     "typescript": "4.5.5",
     "eslint": "8.7.0",
-    "ava": "4.0.1"
+    "jshint": "2.13.4",
+    "ava": "4.0.1",
+    "nyc": "15.1.0",
+    "jsdoc": "3.6.10"
   }
 }
